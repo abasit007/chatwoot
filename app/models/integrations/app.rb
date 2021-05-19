@@ -39,7 +39,7 @@ class Integrations::App
     when 'slack'
       ENV['SLACK_CLIENT_SECRET'].present?
     when 'dialogflow'
-      false
+      true
     else
       true
     end
